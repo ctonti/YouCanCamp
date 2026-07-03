@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&display=swap');
 
 :root {
-  --moca-red: #E52217;
+  --ws-blue: #01AEFF;
   --neutral-900: #191919;
   --neutral-600: #555555;
   --neutral-300: #DBDBDB;
@@ -101,7 +101,7 @@ body {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: var(--moca-red);
+  color: var(--ws-blue);
 }
 
 .slide-content {
@@ -209,7 +209,7 @@ p.lead {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  background-color: var(--moca-red);
+  background-color: var(--ws-blue);
   color: var(--neutral-100);
   padding: 10px 28px;
   border-radius: 40px;
@@ -222,7 +222,7 @@ p.lead {
 }
 
 .moca-btn:hover {
-  background-color: #c9180f;
+  background-color: #0096dc;
   transform: translateY(-2px);
 }
 
@@ -236,8 +236,8 @@ p.lead {
 
 .badge-moca {
   display: inline-block;
-  border: 1px solid var(--moca-red);
-  color: var(--moca-red);
+  border: 1px solid var(--ws-blue);
+  color: var(--ws-blue);
   border-radius: 20px;
   padding: 4px 14px;
   font-size: 0.75rem;
@@ -258,12 +258,12 @@ p.lead {
 }
 
 .card-moca:hover {
-  border-color: var(--moca-red);
+  border-color: var(--ws-blue);
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
 }
 
 .card-title-red {
-  color: var(--moca-red);
+  color: var(--ws-blue);
   font-weight: 700;
   margin-bottom: 0.75rem;
 }
@@ -271,13 +271,13 @@ p.lead {
 .huge-number {
   font-size: 5rem;
   font-weight: 900;
-  color: var(--moca-red);
+  color: var(--ws-blue);
   line-height: 1;
   margin-bottom: 0.5rem;
 }
 
 .highlight-text {
-  color: var(--moca-red);
+  color: var(--ws-blue);
   font-weight: 700;
 }
 
@@ -290,7 +290,7 @@ p.lead {
 }
 
 .matrix-item {
-  border-left: 4px solid var(--moca-red);
+  border-left: 4px solid var(--ws-blue);
   padding-left: 1.5rem;
 }
 
@@ -455,7 +455,7 @@ p.lead {
 .progress-bar {
   height: 100%;
   width: 0%;
-  background-color: var(--moca-red);
+  background-color: var(--ws-blue);
   transition: width 0.3s ease;
 }
 
@@ -492,7 +492,7 @@ p.lead {
 
 .control-btn:hover {
   background-color: var(--neutral-200);
-  color: var(--moca-red);
+  color: var(--ws-blue);
 }
 
 /* Overview Mode Styling (Triggered by pressing 'O' or clicking grid icon) */
@@ -537,14 +537,14 @@ p.lead {
 
 .deck-container.overview-mode .slide:hover {
   opacity: 1;
-  border-color: var(--moca-red);
+  border-color: var(--ws-blue);
   transform: translateY(-5px) !important;
   box-shadow: 0 12px 24px rgba(0,0,0,0.08);
 }
 
 .deck-container.overview-mode .slide.active {
-  border-color: var(--moca-red);
-  outline: 2px solid var(--moca-red);
+  border-color: var(--ws-blue);
+  outline: 2px solid var(--ws-blue);
   opacity: 1;
   box-shadow: 0 12px 24px rgba(229, 34, 23, 0.1);
 }
